@@ -1,0 +1,129 @@
+/*body{
+	background: url('../pics/b.jpg') no-repeat scroll;
+	background-size: cover;
+}*/
+
+
+.header{
+	/*float: right;*/
+	padding: 20px 20px;
+	font-family: stylish;
+	color: rgb(19, 99, 0);
+	font-size: 48px;
+	margin: 0 auto;
+	margin-right: 650px;
+	margin-top: 200px;
+	max-width:30%;
+
+}
+.i1{
+	padding-right: 10px;
+	float: left;
+	margin-top: 250px;
+	margin-left: 80px;
+	max-width: 20%;
+}
+
+
+.header1{
+	float: right;
+	font-family: stylish;
+	color: rgb(218,165,32);
+	font-style: bold;
+	font-size: 48px;
+	margin: 0 auto;
+}
+@keyframes example {
+	from{background-image: url('../pics/b.jpg');}
+	to{background-image: url('../pics/a.jpg');}
+	/*
+  0% {background-color: rgb(163, 229, 247);}
+  25% {background-color: rgb(199, 130, 216);}
+  50% {background-color: rgb(163, 229, 247);}
+  100% {background-color: rgb(199, 130, 216);}
+*/}
+
+/* The element to apply the animation to */
+.body{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../pics/bkg.jpg'); 
+}
+.body2{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../pics/i.jpg'); 
+}
+.body1 {
+	font-family: helvetica;
+	font-size:28px;
+	margin: none;
+	color: black;
+ /* background-color: red;*/
+ 	background-repeat: none;
+ 	background-size: cover;
+ 	background-attachment: scroll;
+	animation-name: example;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
+	text-overflow: ellipsis;
+}
+
+p:hover{
+	float:left;
+	transform: scale(1, 1.5);
+	/*transform:skewX(20deg);*/
+	/*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
+
+}
+.n ul li{
+	font-family: 'Stylish', sans-serif;
+	display: block;
+}
+.n ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(19, 193, 13);
+	line-height: 55px;
+}
+.n ul li a:hover{
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	color: black;
+	float:left;
+	transform: scale(1, 1.5);
+}
+.n{
+	font-family: 'Stylish', sans-serif;
+	font-size: 30px;
+	float: right;
+	margin-top: 150px;
+	margin-bottom: 30px;
+
+}
+.n1{
+	color: red;
+}
+.interest{
+	font-size: 45px;
+	text-align: center;
+	padding-right: 80px;
+	padding-top: 250px;
+}
+.Academics{
+	color:rgb(242, 216, 24);
+}
+.link{
+	padding-top: 80px;
+	padding-left: 120px;
+	width: 120px;
+	height: 120px;
+}
+.fb{
+	max-width: 120px;
+	max-height: 120px;
+	padding-left: 120px;
+}

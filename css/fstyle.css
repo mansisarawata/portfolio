@@ -1,0 +1,78 @@
+.d{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 100px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: lightgrey;
+}
+.h{
+	background: white;
+}
+
+.h::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.n ul li{
+	display: inline-block;
+}
+.n ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: blue;
+	line-height: 45px;
+}
+.n ul li a:hover{
+	color: black;
+}
+.i{
+	float: left;
+}
+.n{
+	float: right;
+}
+
+/*next part*/
+p{
+	margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 10px;
+}
+.d1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 70%;
+	float: left;
+}
+.a{
+	background: white;
+	padding: 15px;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+/*next*/
+.fo{
+	background: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	clear: both;
+}
+.as{
+	max-width: 25%;
+	float: right;
+	width: 25%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.as div{
+	background: white;
+}
